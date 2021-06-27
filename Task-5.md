@@ -27,7 +27,3 @@
     clearInterval(intervalId)
   }, [])
 Also observe formatting, use eslint and prettier to auto format it.
-
-48: Use destructuring for creating state variables. These should be distructored already, see line 34 comment.
-
-53: Using <h1 /> for styling purposes is against accessibility best practices, wrapping the position in a <div role='alert'>{`Position - ${position}`}</div> or <section /> with a className is much semantic. Screen reader users are sometimes navigating by headings, with h1 always signifies the most important content on the page;
